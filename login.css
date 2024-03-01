@@ -35,7 +35,7 @@ body {
   line-height: 48px;
   letter-spacing: 4px;
   position: relative;
-  left: -4.6rem;
+  left: -4rem;
 }
 .inputs {
   display: flex;
@@ -48,28 +48,6 @@ body {
   border: 1px solid #000;
   font-size: 17px;
   font-weight: 400;
-}
-
-.container-terms {
-  width: 240px;
-  height: 21px;
-  margin-top: 25px;
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-}
-
-#checkbox {
-  width: 21px;
-  height: 21px;
-  border: 1px solid #000;
-  cursor: pointer;
-}
-
-#terms-service {
-  font-size: 16px;
-  font-weight: 400;
-  color: #000;
 }
 
 .container-btn {
