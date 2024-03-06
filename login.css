@@ -127,3 +127,89 @@ body {
 }
 
 /* fim right */
+
+/* responsividade */
+
+@media (max-width: 1024px) {
+  .main {
+    grid-template-columns: none;
+  }
+
+  .container-cadastro-left {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    align-content: center;
+  }
+
+  .container-form {
+    display: grid;
+    padding: 0;
+    align-content: center;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 556px) {
+  .title-new-acount {
+    font-size: 2rem;
+    left: -1rem;
+  }
+
+  .inputs {
+    width: 280px;
+  }
+
+  #checkbox {
+    width: 17px;
+    height: 20px;
+  }
+
+  #terms-service {
+    font-size: 13px;
+  }
+
+  .container-btn {
+    width: 280px;
+  }
+
+  #btn-submit {
+    width: 280px;
+    font-size: 16px;
+    z-index: 10;
+  }
+
+  #svg {
+    display: none;
+  }
+
+  #text-redrect {
+    width: 280px;
+    font-size: 15px;
+  }
+
+  #text-redrect a {
+    font-size: 15px;
+  }
+
+  .container-img {
+    padding: 0;
+  }
+  #img-cadastro-right {
+    width: 265px;
+    height: 280px;
+  }
+
+  .container-title {
+    width: 280px;
+  }
+
+  .text-title {
+    font-size: 2rem;
+  }
+
+  .description-title {
+    font-size: 17px;
+  }
+}
